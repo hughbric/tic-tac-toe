@@ -3,6 +3,7 @@
   "title": "Tic Tac Toe",
   "description": "The classic game",
   "author": "hughbric",
+  "main": "pages/index.js",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
     "autoprefixer": "^10.0.4",
     "babel-jest": "^27.0.5",
     "jest": "^27.0.5",
