@@ -2,77 +2,117 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div
-  className="m-20 text-sm place-items-center grid text-center"
+  className="min-h-screen bg-gray-100 dark:bg-gray-dark dark:text-white"
 >
-  <h1
-    className="text-6xl mb-6"
+  <header
+    className="bg-white shadow dark:bg-gray-darkest"
   >
-    Tic Tac Toe
-  </h1>
-  <div
-    className="game-board"
-  >
-    <div>
-      <div
-        className="mb-10"
+    <div
+      className="flex max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
+    >
+      <h1
+        className="flex-auto text-3xl font-bold text-right dark:text-gray-300"
       >
-        Next player: X
-      </div>
+        <a
+          href="https://github.com/hughbric"
+          target="_blank"
+        >
+          hughbric
+        </a>
+      </h1>
       <div
-        className="after:clear-both after:table"
-      >
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-      </div>
-      <div
-        className="after:clear-both after:table"
-      >
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-      </div>
-      <div
-        className="after:clear-both after:table"
-      >
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-        <button
-          className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-gray-300"
-          onClick={[Function]}
-        />
-      </div>
-      <button
-        className="mt-10 py-2 px-4 border rounded focus:outline-none hover:bg-gray-100 active:bg-gray-200"
+        className="ml-2 py-2 px-4 border border-white rounded focus:outline-none hover:bg-white active:bg-pink-200 active:border-pink-200 dark:hover:bg-gray-darkest dark:border-gray-light dark:active:bg-red-active dark:focus:bg-red-active"
         onClick={[Function]}
       >
-        Restart
-      </button>
+        darkMode
+      </div>
     </div>
-  </div>
+  </header>
+  <main
+    className="font-serif"
+  >
+    <div
+      className="max-w-md mx-auto mt-14 py-6 sm:px-6 lg:px-8 bg-white dark:bg-gray-darkest rounded-md"
+    >
+      <div
+        className="max-w-md mx-auto py-6 sm:px-6 lg:px-8 bg-pink-100 rounded-md dark:bg-red-dark"
+      >
+        <div
+          className="m-5 text-sm place-items-center grid text-center"
+        >
+          <h1
+            className="text-6xl mb-6"
+          >
+            Tic Tac Toe
+          </h1>
+          <div
+            className="game-board"
+          >
+            <div>
+              <div
+                className="mb-10"
+              >
+                Next player: X
+              </div>
+              <div
+                className="after:clear-both after:table"
+              >
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="after:clear-both after:table"
+              >
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="after:clear-both after:table"
+              >
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+                <button
+                  className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active"
+                  onClick={[Function]}
+                />
+              </div>
+              <button
+                className="mt-10 py-2 px-4 border border-white rounded focus:outline-none hover:bg-white active:bg-pink-200 active:border-pink-200 dark:hover:bg-gray-darkest dark:border-gray-light dark:active:bg-red-active dark:focus:bg-red-active"
+                onClick={[Function]}
+              >
+                Restart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </div>
 `;
