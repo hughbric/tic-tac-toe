@@ -23,7 +23,7 @@ export default function Board() {
 
   function renderSquare(i) {
     return (
-      <button className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300" onClick={() => selectSquare(i)}>
+      <button className="h-16 w-16 p-0 border border-solid border-gray-500 float-left font-bold text-center text-4xl bg-white -mr-px -mt-px focus:outline-none focus:bg-pink-300 dark:bg-gray-darkest dark:active:bg-red-active" onClick={() => selectSquare(i)}>
         {squares[i]}
       </button>
     )
@@ -47,7 +47,7 @@ export default function Board() {
         {renderSquare(7)}
         {renderSquare(8)}
       </div>
-      <button className="mt-10 py-2 px-4 border border-white rounded focus:outline-none hover:bg-white active:bg-pink-200 active:border-pink-200" onClick={restart}>
+      <button className="mt-10 py-2 px-4 border border-white rounded focus:outline-none hover:bg-white active:bg-pink-200 active:border-pink-200 dark:hover:bg-gray-darkest dark:border-gray-light dark:active:bg-red-active dark:focus:bg-red-active" onClick={restart}>
         Restart
       </button>
     </div>
